@@ -42,6 +42,7 @@ body {
     transition: transform 0.5s linear;
 }
 
+/* When container has the show-nav class applied, then we want to style the circle, which is to rotate it. Because of where the close button is positioned, it just comes into view when the circle rotates. */
 .container.show-nav .circle {
     transform: rotate(-70deg);
 }
